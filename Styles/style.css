@@ -14,10 +14,8 @@ body {
 }
 
 header {
-    position: sticky;
+    position:sticky;
     background-color: #fff;
-
-
 }
 
 /* navbar */
@@ -98,4 +96,46 @@ main {
 .text-box>p{
     font-size: 16px;
 
+}
+
+/* products section */
+.products-section{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.product-content>.heading-text{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 0px;
+}
+.product-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card-container > .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition:.5s ease ;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.card > button{
+    font-family: "inter", sans-serif;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    background-color: #F7F6F0;
 }
