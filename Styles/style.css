@@ -8,14 +8,13 @@
 }
 
 body {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
 
-header {
+header{
     position:sticky;
-    background-color: #fff;
 }
 
 /* navbar */
@@ -59,12 +58,6 @@ header {
 }
 
 
-main {
-    border: 2px solid lime;
-
-
-}
-
 .banner{
     width:100%;
     max-width: 1280px;
@@ -96,6 +89,10 @@ main {
 .text-box>p{
     font-size: 16px;
 
+}
+
+main{
+    padding-bottom: 120px;
 }
 
 /* products section */
@@ -138,4 +135,25 @@ main {
     border: none;
     border-radius: 20px;
     background-color: #F7F6F0;
+}
+
+#season-collection{
+    margin-top: 50px;
+}
+
+.sale-card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.card > .product-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+.card > .product-price{
+    font-size: 16px;
+    font-weight: normal;
 }
