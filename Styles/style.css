@@ -24,9 +24,8 @@ header {
 .navigation-bar {
     margin: 0 auto;
     width: 1280px;
-    border: 2px solid green;
     background-color: #fff;
-    padding: 20px;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,4 +58,44 @@ header {
 .site-logo>h2 {
     font-size: 20px;
     font-weight: 500;
+}
+
+
+main {
+    border: 2px solid lime;
+
+
+}
+
+.banner{
+    width:100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;   
+    align-items:stretch;
+    gap: 20px; 
+}
+
+.banner>.text-box{
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    color:#000000 ;
+}
+.text-box>h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.text-box>h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.text-box>p{
+    font-size: 16px;
+
 }
